@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    background-color: #f2e6e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    margin: 0;
+}
+
+form {
+    margin: 5rem 0;
+}
+
+label {
+    font-weight: bold;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin-right: 1rem;
+}
+
+.input-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.input-row input {
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.top-text {
+    top: 1%
+}
+
+.bottom-text {
+    bottom: 1%;
+}
+
+/*css for user generated memes after inputting img and top text and bottom text*/
+.meme {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    width: 300px;
+}
+
+.meme-content {
+    position: relative;
+}
+
+.meme img {
+    max-width: 100%;
+    height: auto;
+}
+
+.meme-text {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.delete-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: red;
+    color: white;
+    padding: 0.25rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
